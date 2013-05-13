@@ -4,16 +4,16 @@ $(document).ready(function(){
       
 });
 
-// global 
+// global variables for the game
 var interval,
 	start_time = 30, // time from which timer starts counting
 	bonusTime = 3, // bonus seconds for correct answer
 	punishmentTime = 3, // punishment seconds for wrong answer 
-	gridSize = 6, // should be ordinal number
+	gridSize = 6, // should be an even number
 	maxValue = 10; // max result value
 
 	if (gridSize % 2 != 0) {
-		gridSize += 1; // if someone did not put ordinal number, correct it!
+		gridSize += 1; // if someone did not put an even number, correct it!
 	}
 
 /**
@@ -206,7 +206,7 @@ function play() {
 function generateGrid( gridDimension, maxValue, operation ) {
 
     if (gridDimension % 2 != 0) {
-    	gridDimension += 1; // as gridDimension can only be ordinal number
+    	gridDimension += 1; // as gridDimension can only be an even number
     }
     var grid = {
                     //Get random value for the result, based on maxValue

@@ -7,15 +7,13 @@
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <link type="text/css" rel="stylesheet" href="styles.css" />
     <link href='http://fonts.googleapis.com/css?family=Volkhov:400,700' rel='stylesheet' type='text/css'>
-	<script type="text/javascript" src="scripts/main.js"></script>
-	
 
 </head>
 
 <body>
 
     <div id="header">
-		<h1><img src="calculus-logo.png" alt="Calculus Game by CodeForest" /></h1>
+		<h1><a href=""><img src="calculus-logo.png" alt="Calculus Game by CodeForest" /></a></h1>
     </div>
     
 	<div id="game_header">
@@ -33,6 +31,6 @@
 	</div>
 
 	<div id="grid"></div>
-  
+<script type="text/javascript" src="scripts/main.js"></script>
 </body>
 </html>

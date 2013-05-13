@@ -21,6 +21,7 @@ var interval,
 */
 function timer(increment) {
 	
+	// our HTML id for showing the time
 	var $timer = $('#timer');
 	
     if(increment == 0) {
